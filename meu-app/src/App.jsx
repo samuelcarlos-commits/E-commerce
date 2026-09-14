@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Navbar from './Navbar'
 import Produto from './Produto'
+import hero from './assets/hero.png'
 import './App.css'
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
     nome: "macumba",
     descricao: "amaldiçoe seus amigos!",
     preco: "9.99",
-    imagem: "/assets/hero.png"
+    imagem: hero
   })
 
   return (
